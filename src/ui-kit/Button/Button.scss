@@ -1,0 +1,108 @@
+@import '../Styles/index';
+
+.Button {
+  $this: &;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: max-content;
+  width: max-content;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: all 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+
+  &-Text {
+    margin-left: 4px;
+  }
+
+  &#{$this}__filled {
+    color: $color-main-white;
+    background-color: $color-primary;
+    border: 2px solid transparent;
+
+    &:hover {
+      background-color: $color-blue-hovered;
+    }
+
+    &:active {
+      background-color: $color-blue-pressed;
+      box-shadow: 0 0 0 2px rgba($color-primary, 0.2);
+    }
+  }
+
+  &#{$this}__transparent {
+    color: $color-primary;
+    background-color: rgba($color-primary, 0.1);
+    border: 1px solid transparent;
+
+    &:hover {
+      background-color: rgba($color-primary, 0.1);
+      color: $color-blue-hovered;
+    }
+
+    &:active {
+      svg path {
+        fill: $color-blue-pressed;
+        transition: all 0.3s;
+      }
+      background-color: rgba($color-primary, 0.1);
+      color: $color-blue-pressed;
+      box-shadow: 0 0 0 2px rgba($color-primary, 0.2);
+    }
+  }
+
+  &#{$this}__outline {
+    color: $color-disabled;
+    background-color: $color-disabled-secondary;
+    border-color: $color-disabled-secondary;
+    cursor: default;
+
+    &:hover {
+      color: $color-disabled;
+      background-color: $color-disabled-secondary;
+      border-color: $color-disabled-secondary;
+    }
+  }
+
+  &#{$this}__frameless {
+    color: $color-disabled;
+    background-color: $color-disabled-secondary;
+    border-color: $color-disabled-secondary;
+    cursor: default;
+
+    &:hover {
+      color: $color-disabled;
+      background-color: $color-disabled-secondary;
+      border-color: $color-disabled-secondary;
+    }
+  }
+
+  &#{$this}__link {
+    color: $color-disabled;
+    background-color: $color-disabled-secondary;
+    border-color: $color-disabled-secondary;
+    cursor: default;
+
+    &:hover {
+      color: $color-disabled;
+      background-color: $color-disabled-secondary;
+      border-color: $color-disabled-secondary;
+    }
+  }
+
+  &#{$this}__disabled {
+    color: $color-disabled;
+    background-color: $color-disabled-secondary;
+    border-color: $color-disabled-secondary;
+    cursor: default;
+
+    &:hover {
+      color: $color-disabled;
+      background-color: $color-disabled-secondary;
+      border-color: $color-disabled-secondary;
+    }
+  }
+}

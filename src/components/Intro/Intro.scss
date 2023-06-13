@@ -1,0 +1,98 @@
+.detailTitle{
+    position: absolute;
+    padding-top: 44px;
+    padding-left: 44px;
+}
+
+.introBackground{
+    background: url("../../assets/backgroundSecond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.detailContainer{
+    display: flex;
+    padding-top: 44px;
+    padding-left: 205px;
+    gap: 45px;
+}
+
+.detailContainerDown{
+    display: flex;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    // gap: 32px;
+    // margin-left: 100px;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .introBackground{
+        background: url("../../assets/backgroundSecond.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .detailContainer{
+        visibility: hidden;
+        display: flex;
+        gap: 45px;
+    }
+
+    // .detailTitle{
+    //     position: absolute;
+    //     padding-top: 44px;
+    //     padding-left: 44px;
+    // }
+    
+    .detailContainerDown{
+        display: flex;
+        flex-direction: row;
+        padding-top: 44px;
+        padding-left: 205px;
+    }
+    
+    .cardContainer{
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .introBackground{
+        background: url("../../assets/backgroundSecond.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .detailContainer{
+        display: flex;
+        gap: 45px;
+    }
+
+    .detailTitle{
+        position: absolute;
+        padding-top: 44px;
+        padding-left: 44px;
+    }
+    
+    .detailContainerDown{
+        display: flex;
+        flex-direction: row;
+        padding-top: 44px;
+        padding-left: 205px;
+    }
+    
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-left: 100px;
+    }
+}

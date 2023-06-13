@@ -1,0 +1,35 @@
+@import "../../ui-kit/Styles/index";
+
+@media only screen and (max-width: 768px) {
+  .sliderContainer {
+  }
+
+  .sliderText {
+    text-align: center;
+    @include roboto-24-bold;
+    padding: 60px;
+  }
+
+  .sliderImage {
+    padding-left: 102px !important;
+    padding-bottom: 40px !important;
+    max-width: 98% !important;
+    display: block !important;
+  }
+}
+
+.sliderContainer {
+}
+
+.sliderText {
+  text-align: center;
+  @include roboto-24-bold;
+  padding: 60px;
+}
+
+.sliderImage {
+  padding-left: 102px;
+  padding-bottom: 40px;
+  max-width: 98%;
+  display: flex;
+}

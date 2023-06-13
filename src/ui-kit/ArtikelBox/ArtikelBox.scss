@@ -1,0 +1,33 @@
+@import '../Styles/index';
+
+.artBoxContainer{
+    padding: 12px;
+    max-width: 350px;
+}
+
+.artImage{
+    padding: 0;
+    gap: 25px;
+    width: 300px;
+    // height: 168.75px;
+}
+
+.artText{
+    padding-top: 50px;
+    &-Date{
+        @include roboto-12-regular;
+        color: $color-darken-gray;
+        padding-top: 0px;
+    }
+    &-Title{
+        @include roboto-16-bold;
+        color: $color-main-black;
+        padding-top: 20px;
+    }
+    &-Detail{
+        @include roboto-14-regular;
+        color: $color-darken-gray;
+        padding-top: 20px;
+        word-wrap: break-word;
+    }
+}

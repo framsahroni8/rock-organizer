@@ -1,0 +1,42 @@
+@import '../../ui-kit/Styles/index';
+
+.bottom{
+    background: url("../../assets/gooter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.bottomTwo{
+    background: $color-main-black ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.2;
+}
+
+.bottomText{
+    @include roboto-45-regular;
+    color: $color-main-white;
+    text-align: center;
+    padding: 95px;
+}
+
+.bottomButton{
+    padding-left: 500px;
+    padding-bottom: 80px;
+}
+
+.tombol{
+    @include roboto-28-medium;
+    background-color: $color-pink !important;
+    transform: translate(-50%, -50%);
+
+    &:hover{
+        background-color: $color-success !important;
+    }
+
+    &:active{
+        background-color: $color-danger-focused !important;
+    }
+}

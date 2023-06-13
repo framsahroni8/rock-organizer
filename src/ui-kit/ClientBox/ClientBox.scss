@@ -1,0 +1,16 @@
+@import "../Styles/index";
+
+.clientImage{
+    max-width: max-content;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.clientPhoto{
+    width: 300px;
+    height: 430px;
+
+    &:hover{
+        box-shadow: $shadow-card;
+    }
+}

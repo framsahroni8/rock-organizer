@@ -1,0 +1,17 @@
+@import '../Styles/index';
+
+.DetailsContainer{
+    max-width: 340px;
+    word-wrap: break-word;
+}
+
+.DetailsTitle{
+    @include roboto-18-bold;
+}
+
+.DetailsBody{
+    padding-top: 25px;
+    @include roboto-16-regular;
+    max-width: max-content;
+    word-wrap: break-word;
+}

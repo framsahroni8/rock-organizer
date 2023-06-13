@@ -1,0 +1,78 @@
+@import "../../ui-kit/Styles/index";
+
+.detailsBackground{
+    background-color: $color-details;
+}
+
+.detailsText{
+    @include roboto-28-bold;
+    padding: 24px;
+    text-align: center;
+}
+
+.detailsImage{
+    justify-content: center;
+    gap: 88px;
+    display: flex;
+    padding: 14px;
+
+    @media (max-width: 1024px){
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.sliderClient{
+    @media(min-width: 1024px){
+        display: none;
+        visibility: hidden;
+    }
+    @media(min-width: 300px){
+       align-items: center;
+    }
+}
+
+.detailsTiktok{
+    display: flex;
+    width: 100%;
+    gap: 90px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    &-text{
+        padding-bottom: 104px;
+        padding-left: 10px;
+        max-width: 280px;
+        word-wrap: break-word;
+        @include roboto-24-regular;
+        align-self: center;
+    }
+
+    &-button{
+        gap: 58px;
+        padding-bottom: 25px;
+    }
+
+    @media(max-width: 1023px){
+        display: block;
+
+        &-text{
+            text-align: center;
+            padding: 0%;
+        }
+    }
+}
+
+.buttonClick{
+    background-color: $color-main-black !important;
+
+    &:hover{
+        background-color: $color-suit-gray !important;
+    }
+
+    &:hover{
+        background-color: $color-light-gray !important;
+    }
+}
+

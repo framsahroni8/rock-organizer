@@ -1,0 +1,66 @@
+@import "../Styles/index";
+
+.reasonBox{
+   
+}
+
+@media only screen and (min-width: 300px) {
+    .reasonHeader{
+        @include roboto-24-bold;
+        padding: 54px;
+        text-align: center;
+    }
+    
+    .reasonDetail{
+        padding: 24px;
+        justify-content: center;
+        gap: 25px;
+        // display: flex;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .reasonHeader{
+        @include roboto-24-bold;
+        padding: 54px;
+        text-align: center;
+    }
+    
+    .reasonDetail{
+        padding: 24px;
+        justify-content: center;
+        gap: 25px;
+        display: flex;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .reasonHeader{
+        @include roboto-24-bold;
+        padding: 54px;
+        text-align: center;
+    }
+    
+    .reasonDetail{
+        padding: 24px;
+        justify-content: center;
+        gap: 25px;
+        display: flex;
+    }
+    
+}
+
+// .reasonHeader{
+//     @include roboto-24-bold;
+//     padding: 54px;
+//     text-align: center;
+// }
+
+// .reasonDetail{
+//     padding: 24px;
+//     justify-content: center;
+//     gap: 25px;
+//     display: flex;
+// }

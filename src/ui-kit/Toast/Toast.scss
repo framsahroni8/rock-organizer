@@ -1,0 +1,37 @@
+@import '../Styles/index';
+
+
+.Toastify__toast-body {
+    padding: 0px !important;
+}
+
+.toastBorder{
+    $this: &;
+    border-left: 4px solid $color-success;
+    border-radius: 2px;
+    &#{$this}__info{
+        border-left: 4px solid $color-primary;
+    }
+    &#{$this}__danger{
+        border-left: 4px solid $color-danger;
+    }
+}
+
+.toastIcon{
+    padding-left: 12px;
+    align-self: center;
+}
+
+.toastHeader{
+    @include roboto-12-regular;
+    color: $color-main-black;
+}
+
+.toastMessages{
+    @include roboto-12-regular;
+    color: $color-main-black;
+}
+
+.toastClose{
+    align-self: center;
+}

@@ -1,0 +1,74 @@
+$color-primary: rgba(74, 124, 220, 1); /* #4A7CDC */
+$color-primary-hover: rgba(104, 146, 226, 1); /* #6892E2 */
+$color-navy: #003366;
+
+$color-disabled: rgba(229, 229, 229, 1); /* #E5E5E5 */
+$color-disabled-secondary: rgba(245, 245, 245, 1); /* #f5f5f5 */
+
+$color-text: rgba(53, 53, 53, 1); /* #353535 */
+
+/* Gray */
+$color-dark-gray: rgba(185, 181, 181, 1); /* #B9B5B5 */
+$color-light-gray: rgba(228, 228, 228, 1); /* #e4e4e4 */
+$color-suit-gray: rgba(142, 142, 147, 1); /* #8e8e93 */
+$color-darken-gray: rgba(141,141,141,1.000); /*#8d8d8d*/
+
+/* Violet */
+$color-light-violet: rgba(126, 87, 194, 1); /* #7E57C2 */
+$color-dark-violet: rgba(101, 45, 187, 1); /* #652DBB */
+$color-dark-purple: #ab92b3;
+
+/* Red */
+$color-red: rgba(227, 18, 53, 1); /* #e31235 */
+$color-pink: rgba(255, 152, 197, 1); /* #ff98c5 */
+$color-dark-pink: rgba(231, 84, 128, 1) ; /*#e75480*/
+$color-details: rgba(245, 183, 171, 1); /* #f5b7ab */
+$color-light-red: rgba(251, 228, 227, 1); /* #fbe4e3 */
+$color-light-red-hover: rgba(250, 219, 218, 1); /* #fadbda */
+
+/* Other */
+$color-bg-input: rgba(236, 241, 247, 1); /* #ecf1f7 */
+$color-bg-input-hover: rgba(228, 235, 243, 1); /* #e4ebf3 */
+
+
+$color-main-black: #353535;
+$color-main-white: #FFFFFF;
+
+
+$color-grey-placeholder: #B5B5B5;
+$color-grey-outline: #D5D5D5;
+$color-grey-disabled: #E5E5E5;
+$color-grey-background: #F5F5F5;
+
+
+$color-blue: #4A7CDC;
+$color-blue-pressed: #315393;
+$color-blue-hovered: #6892E2;
+$color-blue-outline: #C3D3F3;
+$color-blue-surface: #F3F6FC;
+$color-blue-focused: rgba(74, 124, 220, 0.1);
+
+
+$color-success: #42C16D;
+$color-success-pressed: #3D955B;
+$color-success-hovered: #92EAB0;
+$color-success-outline: #C9F4D8;
+$color-success-surface: #DEF9E7;
+$color-success-focused: rgba(92, 223, 137, 0.2);
+
+
+$color-warning: #F4B333;
+$color-warning-pressed: #AA7E28;
+$color-warning-hovered: #FFD37D;
+$color-warning-outline: #FFE9BE;
+$color-warning-surface: #FFF2D8;
+$color-warning-focused: rgba(255, 189, 60, 0.2);
+$color-wood: rgba(207,128,120,1.000); /*#cf8078*/
+
+
+$color-danger: #FF4343;
+$color-danger-pressed: #AA2D2D;
+$color-danger-hovered: #FFC0C0;
+$color-danger-outline: #FFC0C0;
+$color-danger-surface: #FFD9D9;
+$color-danger-focused: rgba(255, 67, 67, 0.2);

@@ -1,0 +1,72 @@
+@import '../../ui-kit/Styles/index';
+
+.photo-background {
+  background: url("../../assets/wedding2.jpg");
+  margin-top: -8px;
+  max-width: 1980px;
+  background-size: cover;
+  height: 645px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.homeText {
+  margin-top: -90px; 
+  padding-bottom: 50px;
+  @include roboto-45-regular;
+  text-align: center;
+  color: $color-light-gray;
+  &-rock{
+    @include provicali-45-bold;
+    color: $color-pink;
+  }
+}
+
+.buttonBgs{
+// margin-left: 510px;
+// margin-top: 20px;
+}
+.buttonBg{
+@include roboto-28-bold;
+transform: translate(-50%, -50%);
+border-radius: 8px;
+background-color: $color-pink !important;
+
+&:hover{
+  background-color: $color-dark-pink !important;
+}
+
+&:active{
+  background-color: $color-light-red !important;
+}
+}
+
+
+@media (max-width: 1024px) {
+  .photo-background {
+    max-width: 1024px;
+    background-size: cover;
+    // height: 645px;
+  }
+  
+  .homeText {
+    // margin-top: -40px; 
+    // padding-bottom: 50px;
+    padding-right: 60px;
+    @include roboto-35-regular;
+    text-align: center;
+    color: $color-light-gray;
+    &-rock{
+      @include provicali-40-bold;
+      color: $color-pink;
+    }
+  }
+
+  .buttonBg{
+    transform: translate(-50%, -50%);
+  }
+}
+
+// @media only screen and (max-width: 1024px) {
+  
+// }

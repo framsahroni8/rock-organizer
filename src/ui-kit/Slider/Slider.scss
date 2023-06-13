@@ -1,0 +1,23 @@
+@import "../Styles/index";
+
+
+.imageCarousel{
+    justify-content: center;
+    width: 100%;
+}
+
+
+.carouselWrapper{
+    justify-content: center;
+    max-width: 50%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slider{
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-left: 10px;
+    max-width: 50%;
+}

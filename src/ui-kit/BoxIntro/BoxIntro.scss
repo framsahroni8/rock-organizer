@@ -1,0 +1,49 @@
+@import "../Styles/index";
+
+.boxCoverFirst {
+  position: absolute;
+  width: 218px;
+  height: 226px;
+  background: url("../../assets/firstBox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.boxCoverSecond {
+  position: absolute;
+  width: 218px;
+  height: 226px;
+  background: url("../../assets/secondBox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.boxDetail {
+  padding: 43px;
+  gap: 0px;
+  text-align: center;
+}
+
+.boxText {
+  @include roboto-28-bold;
+  color: $color-disabled;
+}
+
+.boxButton {
+  @include roboto-14-regular;
+  background-color: $color-warning !important;
+  margin-left: 10px;
+  margin-top: 30px;
+
+  &:hover{
+    background-color: $color-warning-hovered !important;
+  }
+
+  &:active{
+    background-color: $color-warning-pressed !important;
+  }
+}

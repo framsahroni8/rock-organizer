@@ -1,0 +1,35 @@
+@import "../Styles/index";
+
+.imageContainer{
+    // width: 218px;
+    // // height: 226px;
+}
+
+.imageHeader{
+    &:hover {
+        box-shadow: $shadow-card;
+    }
+}
+
+.imagePhoto{
+    width: 218px;
+    height: 215px;
+}
+
+.imageBody{
+    width: 218px;
+    background-color: $color-details;
+}
+
+.imageText{
+    color: $color-main-black;
+    text-align: center;
+
+    &-title{
+        @include roboto-16-regular;
+    }
+
+    &-body{
+        @include roboto-16-bold;
+    }
+}

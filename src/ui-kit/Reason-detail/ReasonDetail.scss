@@ -1,0 +1,25 @@
+@import "../Styles/index";
+
+.reasonContainer{
+    max-width: 300px;
+}
+
+.reasonImage{
+    width: 204px;
+    object-fit: cover;
+    padding-left: 28px;
+    margin-left: 15px;
+}
+
+.reasonTitle{
+    @include roboto-16-bold;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.reasonBody{
+    @include roboto-14-regular;
+    padding: 24px;
+    text-align: center;
+    word-wrap: break-word;
+}
